@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb223b54-e93d-453a-b7e2-b24d8ae1935d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Chain/Middleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Chain/RoleCheckHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Chain/Server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Chain/ThrottlingHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Chain/UserExistsHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Command/AddMessageDateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Command/Command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Command/HelloCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Command/Invoker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Command/Receiver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Command/UndoableCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Iterator/Book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Iterator/BookList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Mediator/BaseComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Mediator/Component1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Mediator/Component2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Mediator/ConcreteMediator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Mediator/Mediator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Memento/Memento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Memento/State.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Memento/Ticket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Observer/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Observer/UserObserver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/State/OrderContext.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/State/State.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/State/StateCreated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/State/StateDone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/State/StateShipped.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Strategy/Comparator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Strategy/Context.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Strategy/DateComparator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Strategy/IdComparator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/TemplateMethod/BeachJourney.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/TemplateMethod/CityJourney.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/TemplateMethod/Journey.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Visitor/Group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Visitor/RecordingVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Visitor/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Visitor/RoleVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Behavioral/Visitor/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/Chair.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/Furniture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/FurnitureFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/ModerChair.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/ModernFurnitureFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/ModernTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/VictorianChair.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/VictorianFurnitureFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/AbstractFactory/VictorianTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/Builder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/CarBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/Director.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/Parts/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/Parts/Door.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/Parts/Engine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/Parts/Truck.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/Parts/Vehicle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/Parts/Wheel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Builder/TruckBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/FactoryMethod/Air.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/FactoryMethod/AirDeliveryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/FactoryMethod/DeliveryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/FactoryMethod/Ship.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/FactoryMethod/ShipDeliveryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/FactoryMethod/Transport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/FactoryMethod/Truck.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/FactoryMethod/TruckDeliveryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Prototype/BarBookPrototype.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Prototype/BookPrototype.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Prototype/FooBookPrototype.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/Singleton/Singleton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/StaticFactory/FormatNumber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/StaticFactory/FormatString.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/StaticFactory/Formatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Creational/StaticFactory/StaticFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Adapter/Book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Adapter/EBook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Adapter/EBookAdapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Adapter/Kindle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Adapter/PaperBook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Bridge/AdvancedRemote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Bridge/Device.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Bridge/Radio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Bridge/Remote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Bridge/TV.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Composite/FieldComposite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Composite/Fieldset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Composite/Form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Composite/FormElement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Composite/Input.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Decorator/DangerousHTMLTagsFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Decorator/InputFormat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Decorator/MarkdownFormat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Decorator/PlainTextFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Decorator/TextFormat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Decorator/TextInput.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Facade/Bios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Facade/Facade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Facade/OperatingSystem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Flyweight/Character.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Flyweight/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Flyweight/TextFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Flyweight/Word.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Proxy/BankAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Proxy/BankAccountProxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Structural/Proxy/HeavyBankAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/ChainTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/CommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/IteratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/MediatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/MementoTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/ObserverTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/StateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/StrategyTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/TemplateMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Behavioral/VisitorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Creational/AbstractFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Creational/BuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Creational/FactoryMethodTests.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Creational/PrototypeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Creational/SingletonTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Creational/StaticFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/FooTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Structural/AdapterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Structural/BridgeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Structural/CompositeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Structural/DecoratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Structural/FacadeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Structural/FlyweightTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Structural/ProxyTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/preload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="20jLRt92vZ0VhknmEJu6CmbhLgx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb223b54-e93d-453a-b7e2-b24d8ae1935d" name="Changes" comment="" />
+      <created>1636553044629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636553044629</updated>
+      <workItem from="1636553045796" duration="90000" />
+      <workItem from="1643706263668" duration="4143000" />
+      <workItem from="1643742793793" duration="10000" />
+      <workItem from="1643797170804" duration="22000" />
+      <workItem from="1645633925600" duration="79000" />
+      <workItem from="1650364030271" duration="1285000" />
+      <workItem from="1650477737897" duration="225000" />
+      <workItem from="1652385094533" duration="20000" />
+      <workItem from="1652386565357" duration="46000" />
+      <workItem from="1652386623600" duration="107000" />
+      <workItem from="1652386748190" duration="3000" />
+      <workItem from="1657050754847" duration="93000" />
+      <workItem from="1657475845618" duration="226000" />
+      <workItem from="1657741273050" duration="3000" />
+      <workItem from="1662892855321" duration="22000" />
+      <workItem from="1664726261901" duration="305000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
